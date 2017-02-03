@@ -88,9 +88,11 @@
     "webpack-dev-server": "2.2.0",
     "zone.js": "^0.7.4"
   },
+  "dependencies": {
+    "angular-stormpath": "^0.1.5"
+  },
   "peerDependencies": {
     "@angular/core": "^2.2.1",
-    "angular-stormpath": "^0.1.5",
     "ionic-angular": "^2.0.0"
   },
   "files": [

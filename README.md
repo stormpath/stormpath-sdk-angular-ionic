@@ -31,6 +31,7 @@ Then include the module and pages in your Ionic app's `app.module.ts`:
 
 ```typescript
 import { Component, NgModule } from '@angular/core';
+import { StormpathModule } from 'angular-stormpath';
 import { StormpathIonicModule, LoginPage, ForgotPasswordPage, RegisterPage } from 'angular-stormpath-ionic';
 
 @NgModule({
@@ -51,7 +52,9 @@ import { StormpathIonicModule, LoginPage, ForgotPasswordPage, RegisterPage } fro
 export class AppModule {}
 ```
 
+<!--
 You may also find it useful to view the [demo source](https://github.com/stormpath/stormpath-sdk-angular-ionic/blob/master/demo/demo.component.ts).
+-->
 
 ### Usage without a module bundler
 ```
