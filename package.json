@@ -1,6 +1,6 @@
 {
   "name": "angular-stormpath-ionic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ionic pages for integrating with Stormpath's API",
   "main": "./dist/umd/angular-stormpath-ionic.js",
   "module": "./dist/esm/src/index.js",
