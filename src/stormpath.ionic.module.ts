@@ -1,7 +1,6 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { IonicModule } from 'ionic-angular';
 import { ForgotPasswordPage, LoginPage, RegisterPage } from './ionic/index';
-import { Stormpath, LoginService } from 'angular-stormpath';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,7 @@ import { Stormpath, LoginService } from 'angular-stormpath';
     LoginPage,
     RegisterPage
   ],
-  providers: [Stormpath, LoginService]
+  providers: []
 })
 export class StormpathIonicModule {
 
