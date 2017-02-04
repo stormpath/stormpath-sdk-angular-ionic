@@ -162,9 +162,9 @@ amdefine@1.0.0, amdefine@>=0.0.4:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.0.tgz#fd17474700cb5cc9c2b709f0be9d23ce3c198c33"
 
-angular-stormpath@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/angular-stormpath/-/angular-stormpath-0.1.5.tgz#3004655227f1cea27292d9781954f973bf5066cf"
+angular-stormpath@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/angular-stormpath/-/angular-stormpath-0.1.6.tgz#7a262d7125bf8dc00ca166a215da821495ee79da"
   dependencies:
     angular2-cookie "^1.2.6"
     ng2-webstorage "1.4.3"
@@ -1178,7 +1178,7 @@ debug@0.7.4:
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-0.7.4.tgz#06e1ea8082c2cb14e39806e22e2f6f757f92af39"
 
-debug@2.2.0, debug@^2.2.0, debug@~2.2.0:
+debug@2.2.0, debug@~2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
   dependencies:
@@ -1190,7 +1190,7 @@ debug@2.3.3:
   dependencies:
     ms "0.7.2"
 
-debug@2.6.0:
+debug@2.6.0, debug@^2.2.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.0.tgz#bc596bcabe7617f11d9fa15361eded5608b8499b"
   dependencies:
