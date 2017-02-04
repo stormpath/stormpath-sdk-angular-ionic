@@ -1,5 +1,5 @@
-/// <reference types="jasmine" />
-
+/// <reference path="../node_modules/@types/jasmine/index.d.ts" />
+///<reference path="../src/stormpath.ionic.module.ts"/>
 import 'core-js';
 import 'zone.js/dist/zone';
 import 'zone.js/dist/long-stack-trace-zone';
