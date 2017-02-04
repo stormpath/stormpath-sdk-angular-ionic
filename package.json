@@ -28,7 +28,8 @@
   },
   "keywords": [
     "angular2",
-    "angular"
+    "angular",
+    "ionic"
   ],
   "author": "Stormpath, Inc.",
   "license": "Apache-2.0",
