@@ -31,14 +31,12 @@ Then include the module and pages in your Ionic app's `app.module.ts`:
 
 ```typescript
 import { Component, NgModule } from '@angular/core';
-import { StormpathModule } from 'angular-stormpath';
 import { StormpathIonicModule, LoginPage, ForgotPasswordPage, RegisterPage } from 'angular-stormpath-ionic';
 
 @NgModule({
   ...
   imports: [
     IonicModule.forRoot(MyApp),
-    StormpathModule,
     StormpathIonicModule
   ],
   entryComponents: [
