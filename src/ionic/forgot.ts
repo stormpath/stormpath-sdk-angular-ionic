@@ -11,10 +11,9 @@ import { ForgotPasswordComponent } from 'angular-stormpath';
   </ion-navbar>
 </ion-header>
 <ion-content padding>
-  <p *ngIf="sent">
+  <p *ngIf="sent" class="alert alert-success">
     We have sent a password reset link to the email address of the account that you specified.
-    Please check your email for this message, then click on the link.<br>
-    <button ion-button type="button" (click)="showLogin()">Back to Login</button>
+    Please check your email for this message, then click on the link.
   </p>
   <ion-row>
     <ion-col>
